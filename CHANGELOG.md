@@ -1,5 +1,33 @@
 # Changelog
 
+## [4.0.0](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/compare/v3.0.0...v4.0.0) (2022-04-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* Unified variables and adds support for IAM policies (#341)
+* Use poetry over pipenv (#337)
+
+### Features
+
+* Adding screenshots needed for wiki pages. ([#325](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/325)) ([8c98ac6](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/8c98ac6e1ee15349167d27617af93084e38f0f0d))
+* Changing the screenshot ([#327](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/327)) ([58f3fb8](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/58f3fb807065220af384562b06b3553afbbe6d5b))
+* Onboard EPA Historical Air Quality dataset ([#301](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/301)) ([214a56f](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/214a56ff6a60c09eb2cdbd344acbfc06cc6db822))
+* Onboard IDC v8 dataset ([#319](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/319)) ([0f112e0](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/0f112e0fa39ee8353f7761f261a382445b22e3e3))
+* Onboard international search terms for Google Trends ([#323](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/323)) ([855aa7f](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/855aa7fb987944e07b680b08adafab4b85ca67e2))
+* Onboard SEC Failure to Deliver dataset ([#309](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/309)) ([afa6492](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/afa6492c40a8a0f09d67a694c07a2d8841ae3f84))
+* Retrieve Composer bucket name when deploying DAGs ([#312](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/312)) ([220f1d5](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/220f1d54f8104ce5c67bd7e0df5f84ec28ebd54a))
+* Unified variables and adds support for IAM policies ([#341](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/341)) ([c4a45a0](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/c4a45a055437bc860954c0daeb15587537eeaa42))
+* Update README ([#340](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/340)) ([5cd13e7](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/5cd13e7845637e3c18d4b6dc62a194b33b95931e))
+* Use poetry over pipenv ([#337](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/337)) ([ca43066](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/ca43066a64f5ca3a7b32a6c1bd6c461958329ab0))
+
+
+### Bug Fixes
+
+* Adds packages for docs dependency group ([#339](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/339)) ([6721490](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/6721490f29d18eb0434d48e8722bb3e249e60f0e))
+* bump black version due to `click` dependency issue ([#320](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/320)) ([cac6f18](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/cac6f182177cbd24d0068677145e779c6a512878))
+* Fix generating BQ views for IDC dataset ([#324](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/324)) ([5896865](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/58968650090975a96510c57342a21bc99ced7a7d))
+
 ## [3.0.0](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/compare/v2.8.0...v3.0.0) (2022-03-24)
 
 
